@@ -1,5 +1,17 @@
 header{
-    background-color: blue;
+    background-color: #301347;
+    padding: 190px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+header img{
+    height: 400px;
+    display: flex;
+    float: left;
+    margin-top: -105px;
 }
 
 section{
