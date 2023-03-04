@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+}
+
 header{
     background-color: #301347;
     padding: 190px;
@@ -15,9 +19,22 @@ header img{
 }
 
 section{
-    background-color: blue;
+    margin: 50px;
+    padding: 50px;
+    color: #000;
+    background-color: #A877D0;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 20px;
 }
 
 footer{
     background-color: blue;
+}
+
+h1.tittle{
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
 }
