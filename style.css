@@ -28,7 +28,10 @@ section{
 }
 
 footer{
-    background-color: blue;
+    background-color: #301347;
+    padding: 15px;
+    text-align: center;
+    color: white;
 }
 
 h1.tittle{
