@@ -15,7 +15,7 @@
         <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
         
         <link rel="stylesheet" href="../css/style.css"> 
-        <link rel="stylesheet" href="../css/portfolio.css"> 
+        <link rel="stylesheet" href="../css/contato.css"> 
 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
@@ -26,8 +26,8 @@
 
         <nav>
             <ul>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="#">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="../index.html">Currículo</a></li>
             </ul>
         </nav>
@@ -39,31 +39,37 @@
         
         </header>
         
-        <h1 class="tittle">Portfólio</h1>
+        <h1 class="tittle">Contato</h1>
         
         <main>
             
-            <div class="item-portfolio">
-                <a href="https://www.petz.com.br/cachorro/racas/dachshund/" target="_blank">
-                    <img src="../assets/Joao_Henrique1_Dachshund_watching_the_sunset_through_a_window_b7c4180f-ec61-4848-957f-ca12cb4d011a.png" alt="imagem aleatória">
-                    <p>Exemplo de Portfólio</p>
-                </a>
-             </div>
+            <form action="">
 
-            <div class="item-portfolio">
-                <a href="https://www.petz.com.br/cachorro/racas/dachshund/" target="_blank">
-                    <img src="../assets/Joao_Henrique1_Dachshund_watching_the_sunset_through_a_window_b7c4180f-ec61-4848-957f-ca12cb4d011a.png" alt="imagem aleatória">
-                    <p>Exemplo de Portfólio</p>
-                </a>
-            </div>
+                <fieldset>
+                    <label for="Input-name">Nome</label>
+                    <input type="text" name="Input-name" id="Input-name">
+                </fieldset>
 
-       
-            <div class="item-portfolio">
-                <a href="https://www.petz.com.br/cachorro/racas/dachshund/" target="_blank">
-                    <img src="../assets/Joao_Henrique1_Dachshund_watching_the_sunset_through_a_window_b7c4180f-ec61-4848-957f-ca12cb4d011a.png" alt="imagem aleatória">
-                    <p>Exemplo de Portfólio</p>
-                </a>
-            </div>
+                <fieldset>
+                    <label for="Input-email">E-mail</label>
+                    <input type="email" name="Input-email" id="Input-email">
+                </fieldset>
+
+                <fieldset>
+                    <label for="Input-tel">Telefone</label>
+                    <input type="tel" name="Input-tel" id="Input-tel">
+                </fieldset>
+
+                <fieldset>
+                    <label for="input-msg">Mensagem</label>
+                    <textarea name="input-msg" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <center>
+                    <input type="submit" value="ENVIAR" class="button">
+                </center>
+
+            </form>
 
         </main>
          
