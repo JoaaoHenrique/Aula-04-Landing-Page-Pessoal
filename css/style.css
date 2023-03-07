@@ -64,4 +64,28 @@ h1.tittle{
     color: #000;
 }
 
+@media only screen and (max-width:1024px) {
+   
+    nav ul li{
+        display: inline;
+        margin: 5px;
+        font-size: large;
+    }
+    
+    header{
+        padding: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+
+    header img{
+        height: 150px;
+        display: inline;
+        float: none;
+        margin-top: 10px;
+    }
+
+}
+
  
