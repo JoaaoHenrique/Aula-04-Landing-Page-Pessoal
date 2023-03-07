@@ -66,15 +66,14 @@ h1.tittle{
 
 .button{
     border: 0;
-    color: #fff;
-    background-color: #301347;
-    padding: 10px;
+    color: #000;
+    padding: 16px;
 }
 
 .button:hover{
     cursor: pointer;
-    color: #000;
-    background-color: gray;
+    color: #fff ;
+    background-color: #301347;
 }
 
 @media only screen and (max-width:1024px) {
